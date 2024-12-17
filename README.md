@@ -1,5 +1,7 @@
 Compiles assembly into machine language. 
 
-Ex: python3 assembler.py [input_file] 
+Ex: python3 assembler.py checkerboard.asm
 
-Creates a file called [input_file].hack
+Would create a file called checkerboard.hack which, well, draws a checkerboard.
+
+
