@@ -92,8 +92,8 @@ def assembler() -> None:
             pass
         else:
             ml.append(translate_c(line))
-    filepath = sys.argv[2]
-    output_name = f"{cwd}/{filepath}"
+    filepath = filepath.split(".")[0]
+    output_name = f"{cwd}/{filepath}.hack"
     
     ml = "\n".join(ml)
     try:
